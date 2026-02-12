@@ -1,6 +1,6 @@
-# Trafficking Decision Support Toolkit (TDST)
+# Anti Huamn Trafficking Decision Support Toolkit (AHTDST)
 
-TDST is a **plug-and-play, privacy-aware, data-driven decision-support toolkit** designed to help anti-human-trafficking stakeholders (e.g., NGOs, social service partners, and public agencies) **prioritize outreach, triage leads, and coordinate response workflows** using configurable data pipelines, **AI/ML-ready risk scoring**, and optional dashboards.
+TDST is a **plug-and-play, privacy-aware, data-driven decision-support toolkit** designed to help anti-human-trafficking stakeholders (e.g., NGOs, social service partners, and public agencies) **prioritize outreach, triage leads, optimize resource allocation, and coordinate response workflows** using configurable data pipelines, **AI/ML-ready risk scoring**, and interactive dashboards.
 
 This toolkit is built and maintained from the perspective of a **data scientist with domain knowledge in anti-trafficking analytics**, with an emphasis on **replicability, explainability, and responsible use**.
 
@@ -17,11 +17,11 @@ Human trafficking response work often involves:
 - the need for secure, auditable, and explainable decision support.
 
 TDST aims to reduce adoption barriers by providing a reusable foundation for **data-driven and AI-enabled decision support**, including:
-- a **standardized data schema** and validation utilities,
 - a **configurable pipeline** that can run with minimal engineering effort,
 - **transparent scoring** (baseline analytics today, ML-ready interfaces for expansion),
 - **evaluation components** aligned to real-world triage,
-- optional **dashboards and reporting** modules for operational use.
+- a **standardized data schema** and validation utilities,
+- Interactive **dashboards and reporting** modules for direct display and operational use.
 
 ---
 
@@ -40,6 +40,7 @@ TDST aims to reduce adoption barriers by providing a reusable foundation for **d
 - **Dashboard** for triage queue management, monitoring trends, and model/explainability summaries
 - **API service** for integration into partner systems and case management workflows
 - **Deployment templates** (Docker-first) for scalable rollout
+- **AI ChatBot** for easier results retriving and better streaming
 
 ---
 
@@ -107,9 +108,9 @@ Contributions are welcome, especially around:
 ---
 
 ## License
-License will be added prior to the first public release. (Recommended: Apache-2.0 or MIT depending on partner needs.)
+Apache-2.0 or depending on partner needs
 
 ---
 
 ## Contact
-If you are an organization interested in piloting or collaborating, please open an issue with a brief description of your environment and goals.
+If you are an organization interested in piloting or collaborating, please reach out to xihaocao@163.com for further discussion.
